@@ -1,0 +1,76 @@
+---
+title: "課堂中的示範"
+author: "Belle"
+date: "2017年2月10日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+*必須*要更新教室電腦的RStudio版本。
+
+**必須**要更新教室電腦的RStudio版本。
+
+**必須**要更新教室電腦的RStudio版本。
+
+# 使用ggplot2(標題一)
+
+## 散佈圖(標題二)
+
+## 直方圖(標題二)
+
+## 長條圖(標題二)
+
+### 標題三
+
+- 圖形的種類:
+
+    - 散佈圖
+    
+    - 直方圖
+    
+    - 長條圖
+    
+## 散佈圖
+
+在段落中寫程式`plot(cars)`
+
+```{r echo=FALSE}
+  library(ggplot2)
+  ggplot(cars,aes(x=speed,y=dist))+
+    geom_point()
+```
+
+## 載入 `plotly` 套件
+
+```{r message=FALSE}
+  library(plotly)
+```
+
+## 顯示`cars`的前六個觀測值
+
+```{r results='hide'}
+  head(cars)
+```
+- [knitr](https://yihui.name/knitr/)
+- [RMarkdown](https://yihui.name/knitr/)
+
+![](http://vignette2.wikia.nocookie.net/peanuts/images/7/79/Snoopyimage.jpg/revision/latest?cb=20160503074223)
+
+![](../Wiki-wordmark.png)
+
+##引用一段話
+
+> "Scientific articles are typically locked away in PDF format, a format designed primarily for printing but not so great for searching or indexing." -Forrest Gump
+
+## 水平分隔線
+
+---
+
+##表格
+|樂團名|主唱|
+|------|----|
+|五月天|阿信|
+|Beyong|黃家駒|
