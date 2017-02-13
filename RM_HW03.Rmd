@@ -1,7 +1,7 @@
----
-title: "½Ò°ó¤¤ªº¥Ü½d"
+ï»¿---
+title: "èª²å ‚ä¸­çš„ç¤ºç¯„"
 author: "Belle"
-date: "2017¦~2¤ë10¤é"
+date: "2017å¹´2æœˆ10æ—¥"
 output: html_document
 ---
 
@@ -9,33 +9,33 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-*¥²¶·*­n§ó·s±Ğ«Ç¹q¸£ªºRStudioª©¥»¡C
+*å¿…é ˆ*è¦æ›´æ–°æ•™å®¤é›»è…¦çš„RStudioç‰ˆæœ¬ã€‚
 
-**¥²¶·**­n§ó·s±Ğ«Ç¹q¸£ªºRStudioª©¥»¡C
+**å¿…é ˆ**è¦æ›´æ–°æ•™å®¤é›»è…¦çš„RStudioç‰ˆæœ¬ã€‚
 
-**¥²¶·**­n§ó·s±Ğ«Ç¹q¸£ªºRStudioª©¥»¡C
+**å¿…é ˆ**è¦æ›´æ–°æ•™å®¤é›»è…¦çš„RStudioç‰ˆæœ¬ã€‚
 
-# ¨Ï¥Îggplot2(¼ĞÃD¤@)
+# ä½¿ç”¨ggplot2(æ¨™é¡Œä¸€)
 
-## ´²§G¹Ï(¼ĞÃD¤G)
+## æ•£ä½ˆåœ–(æ¨™é¡ŒäºŒ)
 
-## ª½¤è¹Ï(¼ĞÃD¤G)
+## ç›´æ–¹åœ–(æ¨™é¡ŒäºŒ)
 
-## ªø±ø¹Ï(¼ĞÃD¤G)
+## é•·æ¢åœ–(æ¨™é¡ŒäºŒ)
 
-### ¼ĞÃD¤T
+### æ¨™é¡Œä¸‰
 
-- ¹Ï§ÎªººØÃş:
+- åœ–å½¢çš„ç¨®é¡:
 
-    - ´²§G¹Ï
+    - æ•£ä½ˆåœ–
     
-    - ª½¤è¹Ï
+    - ç›´æ–¹åœ–
     
-    - ªø±ø¹Ï
+    - é•·æ¢åœ–
     
-## ´²§G¹Ï
+## æ•£ä½ˆåœ–
 
-¦b¬q¸¨¤¤¼gµ{¦¡`plot(cars)`
+åœ¨æ®µè½ä¸­å¯«ç¨‹å¼`plot(cars)`
 
 ```{r echo=FALSE}
   library(ggplot2)
@@ -43,13 +43,13 @@ knitr::opts_chunk$set(echo = TRUE)
     geom_point()
 ```
 
-## ¸ü¤J `plotly` ®M¥ó
+## è¼‰å…¥ `plotly` å¥—ä»¶
 
 ```{r message=FALSE}
   library(plotly)
 ```
 
-## Åã¥Ü`cars`ªº«e¤»­ÓÆ[´ú­È
+## é¡¯ç¤º`cars`çš„å‰å…­å€‹è§€æ¸¬å€¼
 
 ```{r results='hide'}
   head(cars)
@@ -61,16 +61,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](../Wiki-wordmark.png)
 
-##¤Ş¥Î¤@¬q¸Ü
+##å¼•ç”¨ä¸€æ®µè©±
 
 > "Scientific articles are typically locked away in PDF format, a format designed primarily for printing but not so great for searching or indexing." -Forrest Gump
 
-## ¤ô¥­¤À¹j½u
+## æ°´å¹³åˆ†éš”ç·š
 
 ---
 
-##ªí®æ
-|¼Ö¹Î¦W|¥D°Û|
+##è¡¨æ ¼
+|æ¨‚åœ˜å|ä¸»å”±|
 |------|----|
-|¤­¤ë¤Ñ|ªü«H|
-|Beyong|¶À®a¾s|
+|äº”æœˆå¤©|é˜¿ä¿¡|
+|Beyong|é»ƒå®¶é§’|
